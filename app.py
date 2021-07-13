@@ -18,7 +18,7 @@ def main():
         """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    presentPrice = st.text_input("ENTER THE PRESENT EX-SHOWROOM PRICE:","")
+    presentPrice = st.text_input("ENTER THE PRESENT EX-SHOWROOM PRICE(In Lakhs:Ex:2.31):","")
     kmDriven = st.text_input("ENTER ODOMETER READING:","")
     fuelType = st.selectbox("SELECT FUEL-TYPE: ", ('Petrol', 'Diesel','CNG'))
     if(fuelType== 'Petrol'):
