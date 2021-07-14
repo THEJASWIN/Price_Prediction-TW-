@@ -12,7 +12,7 @@ def predict(presentPrice, kmDriven, fuelType_LE, sellerType_LE,transmissionType_
 
 def main():
     html_temp = """
-        <div style="background-color:Grey;padding:10px">
+        <div style="background-color:tomato;padding:10px">
         <h1 style="color:white;text-align:center;">Price Prediction </h1>
         </div>
         """
